@@ -1,5 +1,7 @@
 # cs436-final-project
 
+* Link to repo: https://github.com/christinepinney/cs436-final-project
+
 To run this code, run the cells to import necessary libraries. If any modules are not found, install the necessary packages. Any packages installed for this project are retained as comments in the `final_project` notebooks or in `packages.ipynb` (Note: some packages were installed but are not currently being used-- there were a couple iterations of this project where different libraries/packages were utilized). To work with the Sarcasm on Reddit dataset, run the cell to download the data directly from Kaggle and read from the generated csv. Theses files are very large, so they are not provided (they are automatically generated after running the download command below). For the News Headlines Dataset for Sarcasm Detection, the provided `Sarcasm_Headlines_Dataset.json` file contains the data, so parse this file to load the data into a dataframe. The Multinomial Naïve Bayes Classifier requires preprocessing using `CountVectorizer()`, and the provided `glasgow_stop_words.txt` file serves as the `stop_words` parameter. To reshape the data for ELECTRA, `LabelBinarizer()` is used to transform the provided labels into proper format. The tokenizer used is the ELECTRA Tokenizer.
 
 Kaggle:
